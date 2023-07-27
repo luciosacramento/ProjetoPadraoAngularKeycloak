@@ -1,0 +1,35 @@
+sffdsfsdfd
+<div class="container">
+    <div class="row">
+        <div class="col">
+            Seus dados:
+            <p>login: {{user.username}}
+            <p>email: {{user.email}}
+            <p>
+                Hoje é {{data|date: 'short' }}
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <button (click)="error()">Clique para erro</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <button (click)="showMsg()">Clique para msg</button>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <button (click)="showConf()">Clique para confirmacao</button>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col">
+            <button (click)="logoff()">Logoff</button>
+        </div>
+    </div>
+</div>
